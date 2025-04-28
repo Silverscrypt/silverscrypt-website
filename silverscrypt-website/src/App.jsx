@@ -8,7 +8,7 @@ import ContactPage from "./pages/Contact.jsx";
 function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-gray-50">
+      <div className="scroll-smooth min-h-screen flex flex-col bg-gray-50">
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />

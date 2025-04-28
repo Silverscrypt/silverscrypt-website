@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../components/Card";
 
 const Work = () => {
   return (
@@ -8,13 +9,35 @@ const Work = () => {
           Work
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Here, you can find a collection of my projects and works that showcase
+          my skills and creativity. Each project is a testament to my dedication
+          and passion for what I do. Feel free to explore and get inspired!
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-500 ease-out"
+              text="1"
+            />
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-600 ease-out"
+              text="2"
+            />
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-600 ease-out"
+              text="3"
+            />
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-600 ease-out"
+              text="4"
+            />
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-600 ease-out"
+              text="5"
+            />
+            <Card
+              className="w-60 h-70 mt-5 bg-white dark:bg-gray-800 shadow-2xl rounded-lg p-4 text-sky-500 hover:scale-110 transition duration-600 ease-out"
+              text="6"
+            />
+          </div>
         </p>
       </div>
     </div>
