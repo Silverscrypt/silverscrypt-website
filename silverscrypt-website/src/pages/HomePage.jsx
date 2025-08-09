@@ -6,29 +6,29 @@ const HomePage = () => {
     "TypeScript",
     "React",
     "Node.js",
-    "Python",
     "HTML & CSS",
-    "MongoDB",
-    "PostgreSQL",
+    "Python",
+    "C++",
+    "Java",
     "Git",
   ];
 
   const experiences = [
     {
-      title: "Full Stack Developer",
-      company: "Tech Company",
+      title: "Placeholder",
+      company: "Placeholder*",
       period: "2023 — 2024",
       description:
-        "Built responsive web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions for enterprise clients.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       technologies: ["React", "Node.js", "TypeScript", "MongoDB"],
     },
     {
-      title: "Software Engineer Intern",
-      company: "Startup Inc",
+      title: "Placeholder",
+      company: "Placeholder*",
       period: "2022 — 2023",
       description:
-        "Developed and maintained web applications, implemented new features, and optimized database queries for improved performance.",
-      technologies: ["JavaScript", "Python", "PostgreSQL", "Docker"],
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      technologies: ["JavaScript", "Python", "C++", "Rust"],
     },
   ];
 
@@ -47,12 +47,10 @@ const HomePage = () => {
                   Yashvasin Sana
                 </h1>
                 <h2 className="text-2xl text-slate-300 font-light">
-                  Full Stack Developer
+                  Computer Science Student
                 </h2>
                 <p className="text-slate-400 text-lg leading-relaxed max-w-lg">
-                  I build accessible, pixel-perfect digital experiences for the
-                  web with a focus on modern technologies and clean code
-                  architecture.
+                  Aspiring developer, musician, writer, and photographer.
                 </p>
               </div>
 
