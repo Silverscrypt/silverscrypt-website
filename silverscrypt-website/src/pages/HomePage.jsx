@@ -30,6 +30,38 @@ const HomePage = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       technologies: ["JavaScript", "Python", "C++", "Rust"],
     },
+    {
+      title: "Placeholder",
+      company: "Placeholder*",
+      period: "2022 — 2023",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      technologies: ["JavaScript", "Python", "C++", "Rust"],
+    },
+    {
+      title: "Placeholder",
+      company: "Placeholder*",
+      period: "2022 — 2023",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      technologies: ["JavaScript", "Python", "C++", "Rust"],
+    },
+    {
+      title: "Placeholder",
+      company: "Placeholder*",
+      period: "2022 — 2023",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      technologies: ["JavaScript", "Python", "C++", "Rust"],
+    },
+    {
+      title: "Placeholder",
+      company: "Placeholder*",
+      period: "2022 — 2023",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      technologies: ["JavaScript", "Python", "C++", "Rust"],
+    },
   ];
 
   return (

@@ -31,7 +31,7 @@ function SideBar() {
   return (
     <>
       {/* Sidebar: Logo + Social Icons + Mail */}
-      <div className="fixed left-5 top-1/2 -translate-y-1/2 flex flex-col items-center z-50">
+      <div className="fixed left top-1/2 -translate-y-1/2 flex flex-col items-center z-50">
         <div className="bg-slate-800/80 rounded-4xl shadow-lg flex flex-col items-center h-100 w-25 py-4">
           {/* Logo section at top */}
           <div className="flex-shrink-0">
